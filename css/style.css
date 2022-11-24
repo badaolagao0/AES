@@ -1,0 +1,84 @@
+body {
+  background: #000;
+  font: 1em Helvetica;
+}
+
+.container {
+  width: 980px;
+  margin: 25px auto;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.encrypt {
+  float: left;
+  width: 80%;
+  padding: 30px 20px;
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.inputtext {
+  text-indent: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+.kq {
+  width: 82%;
+  margin: auto;
+  margin-left: 76px;
+}
+
+.kq .inputtext{
+  width: 46%;
+  float: left;
+  border-radius: 5px;
+  padding-right: 10px;
+  height: 60px;
+}
+
+.last {
+  margin-left: 12px;
+}
+
+[type=submit] {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 30%;
+  border: 0;
+  background: #000;
+  border-radius: 5px;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.mahoa {
+  margin-right: 80px;
+}
+
+.giaihoa {
+  margin-left: 80px;
+}
+
+
+.header{
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+
